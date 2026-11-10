@@ -1,0 +1,92 @@
+{
+  "nodeMap": {
+    "axis": [
+      "^pivot_shaft_238_2-1$"
+    ],
+    "roller": [
+      "^roller_(shaft_682|body_674)-[12]$"
+    ],
+    "cylinders": [
+      "^pneumatic_cylinder_(extended|retracted)-1$"
+    ],
+    "tray": [
+      "^tray_L215-1$"
+    ],
+    "bearings": [
+      "^bearing_SFL204SS_simplified-[1-4]$"
+    ]
+  },
+  "callouts": [
+    {
+      "id": "alignment-axis",
+      "tag": "axis",
+      "n": 1,
+      "label": "Ось выравнивателя",
+      "claim": "Поперечная ось длиной 238,2 мм с канавками под фиксаторы.",
+      "anchorNode": "pivot_shaft_238_2-1",
+      "anchorSpace": "mesh",
+      "dx": 0.11898,
+      "dy": 0.19906,
+      "why": ""
+    },
+    {
+      "id": "alignment-roller",
+      "tag": "roller",
+      "n": 2,
+      "label": "Валы выравнивателя",
+      "claim": "Два барабана Ø55 × 674 мм на осях длиной 682 мм.",
+      "anchorNode": "roller_body_674-1",
+      "anchorSpace": "mesh",
+      "dx": -0.11393,
+      "dy": -0.15422,
+      "why": "",
+      "anchor": [
+        -19591.51944231232,
+        -29577.62443266347,
+        -13586.745923327968
+      ]
+    },
+    {
+      "id": "alignment-cylinders",
+      "tag": "cylinders",
+      "n": 3,
+      "label": "Пневмоцилиндры",
+      "claim": "Два пневмоцилиндра, соединённые с поворотными держателями валов.",
+      "anchorNode": "pneumatic_cylinder_extended-1",
+      "anchorSpace": "mesh",
+      "dx": 0.1345,
+      "dy": 0.3285,
+      "why": ""
+    },
+    {
+      "id": "alignment-tray",
+      "tag": "tray",
+      "n": 4,
+      "label": "Кабельный лоток",
+      "claim": "Перфорированный лоток L215 для прокладки кабелей вдоль стойки.",
+      "anchorNode": "tray_L215-1",
+      "anchorSpace": "mesh",
+      "dx": 0.15835,
+      "dy": -0.1501,
+      "why": ""
+    },
+    {
+      "id": "alignment-bearings",
+      "tag": "bearings",
+      "n": 5,
+      "label": "Подшипники SFL204SS",
+      "claim": "Четыре корпусных подшипника в опорах поворотных держателей.",
+      "anchorNode": "bearing_SFL204SS_simplified-1",
+      "anchorSpace": "mesh",
+      "dx": -0.14691,
+      "dy": -0.21761,
+      "why": "",
+      "anchor": [
+        -28109.033455664565,
+        -49920.441908540495,
+        30470.156238423955
+      ]
+    }
+  ],
+  "savedAt": "2026-11-10T11:13:26.206907Z"
+}
